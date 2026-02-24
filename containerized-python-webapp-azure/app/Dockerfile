@@ -20,7 +20,7 @@ RUN adduser ubtech -D
 WORKDIR /home/ubtech/app
 
 # Create a folder app in container and work inside it
-#WORKDIR /app
+WORKDIR /app
 
 COPY . .
 
@@ -29,6 +29,7 @@ RUN apk add --no-cache bash
 
 # Install all the requirements
 RUN python3 -m pip install --upgrade pip
+#COPY ./requirements.txt .
 RUN pip3 install -r requirements.txt
 
 
