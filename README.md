@@ -1,2 +1,2 @@
 # DevOps-Exercises
-Some of my devops exercises I collected
+Some of my devops min-projects
