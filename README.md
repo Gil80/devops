@@ -1,2 +1,2 @@
-# DevOps-Exercises
-Some of my devops min-projects
+# DevOps work
+Some of my devops projects
